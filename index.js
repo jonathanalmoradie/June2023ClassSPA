@@ -110,3 +110,20 @@ router
     }
   })
   .resolve();
+
+//   router.on(
+
+//     {
+//       "/": () => render(),
+//       ":view": (params) => {
+//                 let view = capitalize(params.data.view);
+//                 if (view in store) {
+//                   render(store[view]);
+//                 } else {
+//                   console.log(`View ${view} not defined`);
+//                   render(store.Viewnotfound);
+//                 }
+//               },
+//       },
+
+// ).resolve();
